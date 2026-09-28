@@ -19,7 +19,7 @@ body {
 
 /* Hero Background Image */
 .hero-bg-section {
-  background-image: url('../fluxa-fintech.aura.build/img/fundo-plano.png');
+  background-image: url('../img/fundo-plano.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -27,14 +27,14 @@ body {
 
 @media (min-width: 1024px) {
   .hero-bg-section {
-    background-image: url('../fluxa-fintech.aura.build/img/plano-de-saude-no-rio-de-janeiro.png');
+    background-image: url('../img/plano-de-saude-no-rio-de-janeiro.png');
     background-position: center center;
   }
 }
 
 /* Hero Background Image - Plano Familiar */
 .hero-bg-familiar {
-  background-image: url('../fluxa-fintech.aura.build/img/plano-de-saude-familiar-rio-de-janeiro-pq.png');
+  background-image: url('../img/plano-de-saude-familiar-rio-de-janeiro-pq.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -42,14 +42,14 @@ body {
 
 @media (min-width: 1024px) {
   .hero-bg-familiar {
-    background-image: url('../fluxa-fintech.aura.build/img/plano-de-saude-familiar-rio-de-janeiro.png');
+    background-image: url('../img/plano-de-saude-familiar-rio-de-janeiro.png');
     background-position: center center;
   }
 }
 
 /* Hero Background Image - Plano Empresarial */
 .hero-bg-empresarial {
-  background-image: url('../fluxa-fintech.aura.build/img/banner-planos-empresarias-pq.png');
+  background-image: url('../img/banner-planos-empresarias-pq.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body {
 
 @media (min-width: 1024px) {
   .hero-bg-empresarial {
-    background-image: url('../fluxa-fintech.aura.build/img/banner-planos-empresarias.png');
+    background-image: url('../img/banner-planos-empresarias.png');
     background-position: center center;
   }
 }
