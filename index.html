@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cotação de Plano de Saúde RJ | Compare e Economize</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .btn-gradient-blue {
+      background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 50%, #1e40af 100%);
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-blue-600 selection:text-white">
+
+  <!-- Header Navigation Bar -->
+  <header class="relative z-50 mx-auto w-full max-w-[1600px] border-b border-slate-200/80 bg-white/95 px-5 sm:px-9 lg:px-16">
+    <div class="flex items-center justify-between py-3.5 lg:py-4">
+      <!-- Logo: Corretora Mayara Cristina -->
+      <a href="index.html" class="group flex items-center gap-3" aria-label="Corretora Mayara Cristina - Home">
+        <span class="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-800 text-white shadow-md shadow-blue-500/20 transition-transform duration-300 group-hover:scale-105">
+          <i data-lucide="shield-check" class="h-5 w-5"></i>
+        </span>
+        <div class="flex flex-col">
+          <span class="text-base font-extrabold tracking-tight text-slate-950 sm:text-lg">
+            Corretora <span class="text-blue-700">Mayara Cristina</span>
+          </span>
+          <span class="text-[10px] font-semibold uppercase tracking-wider text-slate-500">Planos de Saúde no RJ</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Items -->
+      <nav class="hidden items-center gap-7 text-sm font-bold text-slate-800 lg:flex">
+        <a href="index.html" class="transition hover:text-blue-700">Home</a>
+        <a href="#" class="transition hover:text-blue-700">Sobre nós</a>
+
+        <!-- Dropdown: Planos -->
+        <div class="dropdown relative py-1.5 group">
+          <button class="flex items-center gap-1 font-bold text-blue-700 transition hover:text-blue-800 focus:outline-none">
+            <span>Planos</span>
+            <i data-lucide="chevron-down" class="h-4 w-4 text-blue-700 group-hover:rotate-180 transition-transform"></i>
+          </button>
+          <div class="dropdown-menu absolute left-0 top-full z-50 mt-1 w-64 rounded-2xl border border-slate-200 bg-white p-2.5 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-left scale-95 group-hover:scale-100">
+            <a href="plano-de-saude-familiar-no-rio-de-janeiro.html" class="flex items-center gap-3 rounded-xl p-2.5 bg-blue-50/80 text-blue-700 transition hover:bg-blue-100">
+              <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-blue-600 text-white">
+                <i data-lucide="user" class="h-4 w-4"></i>
+              </span>
+              <div>
+                <div class="text-xs font-bold">Individuais e Familiares</div>
+                <div class="text-[11px] text-blue-600">Para você, sua família e idosos</div>
+              </div>
+            </a>
+            <a href="planos-de-saude-empresarial-rj.html" class="flex items-center gap-3 rounded-xl p-2.5 transition hover:bg-blue-50 hover:text-blue-700">
+              <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-indigo-100/90 text-indigo-700">
+                <i data-lucide="building-2" class="h-4 w-4"></i>
+              </span>
+              <div>
+                <div class="text-xs font-bold">Empresariais</div>
+                <div class="text-[11px] text-slate-500">PME e MEI com até 30% OFF</div>
+              </div>
+            </a>
+            <a href="#" class="flex items-center gap-3 rounded-xl p-2.5 transition hover:bg-blue-50 hover:text-blue-700">
+              <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-emerald-100/90 text-emerald-700">
+                <i data-lucide="users" class="h-4 w-4"></i>
+              </span>
+              <div>
+                <div class="text-xs font-bold">Coletivos por adesão</div>
+                <div class="text-[11px] text-slate-500">Para profissionais e estudantes</div>
+              </div>
+            </a>
+            <a href="#" class="flex items-center gap-3 rounded-xl p-2.5 transition hover:bg-blue-50 hover:text-blue-700">
+              <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-cyan-100/90 text-cyan-700">
+                <i data-lucide="smile" class="h-4 w-4"></i>
+              </span>
+              <div>
+                <div class="text-xs font-bold">Odontológico</div>
+                <div class="text-[11px] text-slate-500">Cobertura bucal completa</div>
+              </div>
+            </a>
+            <a href="#" class="flex items-center gap-3 rounded-xl p-2.5 transition hover:bg-blue-50 hover:text-blue-700">
+              <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-amber-100/90 text-amber-700">
+                <i data-lucide="heart-pulse" class="h-4 w-4"></i>
+              </span>
+              <div>
+                <div class="text-xs font-bold">Pet</div>
+                <div class="text-[11px] text-slate-500">Saúde para cães e gatos</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <a href="#operadoras" class="transition hover:text-blue-700">Operadoras Parceiras</a>
+        <a href="#" class="transition hover:text-blue-700">blog</a>
+        <a href="#" class="transition hover:text-blue-700">contato</a>
+      </nav>
+
+      <!-- Right Header CTA Button -->
+      <div class="flex items-center gap-3">
+        <a href="#" class="btn-gradient-blue group hidden sm:inline-flex h-10 items-center justify-center overflow-hidden rounded-xl px-5 text-xs font-bold text-white transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0 shadow-lg shadow-blue-500/30">
+          <span class="relative z-10 flex items-center gap-2">
+            <i data-lucide="message-square" class="h-4 w-4"></i>
+            <span>Cotação Grátis</span>
+          </span>
+        </a>
+        <!-- Mobile Hamburger Menu Button -->
+        <button id="mobile-menu-btn" onclick="document.getElementById('mobile-drawer').classList.toggle('hidden')" aria-label="Abrir menu principal" class="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-900 shadow-sm hover:bg-slate-50 lg:hidden">
+          <i data-lucide="menu" class="h-5 w-5"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Navigation Drawer -->
+    <div id="mobile-drawer" class="hidden border-t border-slate-200 py-3 lg:hidden">
+      <nav class="flex flex-col space-y-2 font-semibold text-slate-800 text-sm">
+        <a href="index.html" class="rounded-lg px-2.5 py-1.5 transition hover:bg-slate-100">Home</a>
+        <a href="#" class="rounded-lg px-2.5 py-1.5 transition hover:bg-slate-100">Sobre nós</a>
+        <div class="px-2.5 pt-1.5 text-xs font-bold uppercase tracking-wider text-slate-400">Planos de Saúde</div>
+        <a href="plano-de-saude-familiar-no-rio-de-janeiro.html" class="pl-5 text-sm text-blue-700 font-bold">• Individuais e Familiares</a>
+        <a href="planos-de-saude-empresarial-rj.html" class="pl-5 text-sm text-slate-700 hover:text-blue-700">• Empresariais</a>
+        <a href="#" class="pl-5 text-sm text-slate-700 hover:text-blue-700">• Coletivos por adesão</a>
+        <a href="#" class="pl-5 text-sm text-slate-700 hover:text-blue-700">• Odontológico</a>
+        <a href="#" class="pl-5 text-sm text-slate-700 hover:text-blue-700">• Petlove</a>
+        <a href="#operadoras" class="rounded-lg px-2.5 py-1.5 transition hover:bg-slate-100">Operadoras Parceiras</a>
+        <a href="#" class="rounded-lg px-2.5 py-1.5 transition hover:bg-slate-100">blog com artigos</a>
+        <a href="#" class="rounded-lg px-2.5 py-1.5 transition hover:bg-slate-100">contato</a>
+        <div class="pt-2 pb-4">
+          <a href="#" class="bg-emerald-500 flex w-full items-center justify-center gap-2 rounded-xl py-3 text-xs font-bold text-white shadow-md">
+            <i data-lucide="message-circle" class="h-4 w-4"></i>
+            <span>Solicitar Cotação no WhatsApp</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative bg-slate-50 lg:bg-white min-h-[75vh] flex flex-col justify-start pt-0 pb-10 lg:pt-12 lg:pb-24 border-b border-slate-200">
+    <!-- Desktop Hero Background Image Container -->
+    <div class="absolute inset-0 hidden lg:block pointer-events-none" style="background-image: url('img/plano-de-saude-no-rio-de-janeiro.png'); background-size: cover; background-position: right center;">
+      <!-- Esfumado Gradiente Branco apenas na parte esquerda no Desktop -->
+      <div class="absolute inset-y-0 left-0 w-[80%] bg-gradient-to-r from-white via-white/95 via-70% to-transparent"></div>
+    </div>
+
+    <!-- Mobile / Tablet Banner Image Header -->
+    <div class="relative w-full h-56 sm:h-80 lg:hidden pointer-events-none" style="background-image: url('img/plano-de-saude-no-rj.png'); background-size: cover; background-position: center;">
+      <!-- Degrade que vem de baixo -->
+      <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-slate-50 via-slate-50/90 to-transparent"></div>
+    </div>
+
+    <!-- Content Container -->
+    <div class="relative z-10 mx-auto w-full max-w-[1400px] px-5 sm:px-8 -mt-12 sm:-mt-16 lg:mt-0">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        <!-- Left Column -->
+        <div class="lg:col-span-7 xl:col-span-7 max-w-2xl bg-slate-50/95 lg:bg-transparent p-4 sm:p-6 lg:p-0 rounded-3xl lg:rounded-none shadow-sm lg:shadow-none border border-slate-200/60 lg:border-none">
+          
+          <div class="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white px-2 py-1 sm:px-3 sm:py-1.5 text-[10px] sm:text-xs font-bold text-blue-700 shadow-sm mb-3">
+            <span class="flex h-2 w-2 rounded-full bg-blue-600 animate-pulse"></span> CORRETORA AUTORIZADA NO RJ
+          </div>
+          
+          <h1 class="text-3xl sm:text-4xl lg:text-6xl font-black leading-tight text-slate-900">
+            Cotação de Plano de Saúde no <span class="bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-800 bg-clip-text text-transparent">Rio de Janeiro</span>
+          </h1>
+          
+          <p class="mt-2 text-sm sm:text-base lg:text-lg text-slate-700 font-medium leading-relaxed">
+            <span class="block md:hidden">
+              Compare os melhores planos do RJ com a <strong class="text-slate-900">Corretora Mayara Cristina</strong>. Simulação grátis com até 30% OFF para MEI, família e empresa.
+            </span>
+            <span class="hidden md:block">
+              Compare os melhores planos de saúde do RJ com a <strong class="text-slate-900">Corretora Mayara Cristina</strong>. Receba uma simulação personalizada com preços atualizados, tabela MEI, planos individuais, familiares e corporativos com até 30% de desconto.
+            </span>
+          </p>
+
+          <div class="mt-4 sm:mt-6 flex flex-col sm:flex-row gap-3">
+            <a href="#" class="btn-gradient-blue inline-flex w-full sm:w-auto h-12 sm:h-14 items-center justify-center rounded-xl sm:rounded-2xl px-6 sm:px-8 text-sm sm:text-base font-bold text-white shadow-xl transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0">
+              <span class="flex items-center gap-2 sm:gap-3">
+                <i data-lucide="file-text" class="h-4 w-4 sm:h-5 sm:w-5"></i>
+                <span>Fazer Cotação Grátis</span>
+                <i data-lucide="arrow-right" class="h-4 w-4 sm:h-5 sm:w-5 transition-transform duration-300 group-hover:translate-x-1"></i>
+              </span>
+            </a>
+            
+            <a href="#" class="inline-flex w-full sm:w-auto h-12 sm:h-14 items-center justify-center rounded-xl sm:rounded-2xl border border-slate-300 bg-white px-5 sm:px-6 text-sm sm:text-base font-bold text-slate-950 shadow-md transition hover:bg-slate-50">
+              <span class="flex items-center gap-2 sm:gap-2.5">
+                <i data-lucide="phone-call" class="h-4 w-4 sm:h-5 sm:w-5 text-blue-700"></i>
+                <span>(21) 97994-6827</span>
+              </span>
+            </a>
+          </div>
+
+          <!-- Trust Highlights Strip -->
+          <div class="mt-5 sm:mt-8 grid grid-cols-3 gap-2 sm:gap-6 border-t border-slate-300/70 pt-4 sm:pt-6 text-slate-900">
+            <div>
+              <div class="text-xs sm:text-lg font-black text-slate-950 flex items-center gap-1 sm:gap-2">
+                <i data-lucide="clock" class="h-3.5 w-3.5 sm:h-5 sm:w-5 text-blue-700 shrink-0"></i> 5 min
+              </div>
+              <p class="text-[9px] sm:text-xs font-extrabold text-slate-600 mt-0.5">Resposta Rápida</p>
+            </div>
+            <div>
+              <div class="text-xs sm:text-lg font-black text-slate-950 flex items-center gap-1 sm:gap-2">
+                <i data-lucide="trending-down" class="h-3.5 w-3.5 sm:h-5 sm:w-5 text-blue-700 shrink-0"></i> Até 30%
+              </div>
+              <p class="text-[9px] sm:text-xs font-extrabold text-slate-600 mt-0.5">Economia no RJ</p>
+            </div>
+            <div>
+              <div class="text-xs sm:text-lg font-black text-slate-950 flex items-center gap-1 sm:gap-2">
+                <i data-lucide="shield-check" class="h-3.5 w-3.5 sm:h-5 sm:w-5 text-blue-700 shrink-0"></i> 100%
+              </div>
+              <p class="text-[9px] sm:text-xs font-extrabold text-slate-600 mt-0.5">Cotação Grátis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nossos Serviços -->
+  <section class="py-20 bg-slate-50 border-b border-slate-200">
+    <div class="mx-auto max-w-[1400px] px-5 sm:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
+        <div class="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-xs font-bold text-blue-700">
+          <i data-lucide="activity" class="h-4 w-4"></i> SOLUÇÕES COMPLETAS EM SAÚDE NO RJ
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900">Nossos Serviços</h2>
+        <p class="text-slate-600 font-medium">Encontre a modalidade perfeita para o seu momento de vida ou para a sua empresa com consultoria especializada e suporte personalizado do início ao fim.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Service Card 1 -->
+        <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition-shadow flex flex-col h-full">
+          <div class="flex items-center justify-between mb-6">
+            <div class="h-12 w-12 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center"><i data-lucide="users" class="h-6 w-6"></i></div>
+            <span class="text-[10px] font-bold bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md">Individual & Família</span>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">Planos de Saúde Individuais e Familiares</h3>
+          <p class="text-sm text-slate-600 font-medium mb-8 flex-grow">Cobertura sob medida para você e sua família, com atenção especial aos planos de saúde para idosos.</p>
+          <div class="flex items-center justify-between text-xs font-bold text-blue-600 mt-auto">
+            <span>Especialista em Terceira Idade</span>
+            <div class="h-8 w-8 rounded-full bg-blue-50 flex items-center justify-center"><i data-lucide="arrow-right" class="h-4 w-4"></i></div>
+          </div>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition-shadow flex flex-col h-full">
+          <div class="flex items-center justify-between mb-6">
+            <div class="h-12 w-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center"><i data-lucide="building-2" class="h-6 w-6"></i></div>
+            <span class="text-[10px] font-bold bg-emerald-50 text-emerald-600 px-2.5 py-1 rounded-md">CNPJ / MEI / PME</span>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">Planos de Saúde Empresariais</h3>
+          <p class="text-sm text-slate-600 font-medium mb-8 flex-grow">Condições especiais para CNPJ, MEI e PME, reduzindo o custo por vida em relação aos planos individuais.</p>
+          <div class="flex items-center justify-between text-xs font-bold text-emerald-600 mt-auto">
+            <span>Até 30% mais econômico</span>
+            <div class="h-8 w-8 rounded-full bg-emerald-50 flex items-center justify-center"><i data-lucide="arrow-right" class="h-4 w-4"></i></div>
+          </div>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition-shadow flex flex-col h-full">
+          <div class="flex items-center justify-between mb-6">
+            <div class="h-12 w-12 rounded-xl bg-cyan-100 text-cyan-600 flex items-center justify-center"><i data-lucide="smile" class="h-6 w-6"></i></div>
+            <span class="text-[10px] font-bold bg-cyan-50 text-cyan-600 px-2.5 py-1 rounded-md">Saúde Bucal</span>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">Planos Odontológicos</h3>
+          <p class="text-sm text-slate-600 font-medium mb-8 flex-grow">Cobertura completa em saúde bucal para pessoa física, família e empresa.</p>
+          <div class="flex items-center justify-between text-xs font-bold text-cyan-600 mt-auto">
+            <span>Ampla Rede Credenciada</span>
+            <div class="h-8 w-8 rounded-full bg-cyan-50 flex items-center justify-center"><i data-lucide="arrow-right" class="h-4 w-4"></i></div>
+          </div>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm hover:shadow-xl transition-shadow flex flex-col h-full">
+          <div class="flex items-center justify-between mb-6">
+            <div class="h-12 w-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center"><i data-lucide="award" class="h-6 w-6"></i></div>
+            <span class="text-[10px] font-bold bg-amber-50 text-amber-600 px-2.5 py-1 rounded-md">Entidades & Conselhos</span>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-3">Planos por Adesão</h3>
+          <p class="text-sm text-slate-600 font-medium mb-8 flex-grow">Descontos exclusivos para quem pertence a sindicatos, conselhos de classe e associações profissionais.</p>
+          <div class="flex items-center justify-between text-xs font-bold text-amber-600 mt-auto">
+            <span>Descontos Especiais</span>
+            <div class="h-8 w-8 rounded-full bg-amber-50 flex items-center justify-center"><i data-lucide="arrow-right" class="h-4 w-4"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trabalhamos com as Melhores Operadoras (Missing Section Restored) -->
+  <section class="py-20 bg-white border-b border-slate-200" id="operadoras">
+    <div class="mx-auto max-w-[1400px] px-5 sm:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <div class="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-xs font-bold text-blue-700">
+          <i data-lucide="bookmark" class="h-4 w-4"></i> PORTFÓLIO DE OPERADORAS CREDENCIADAS NO RJ
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900">Trabalhamos com as Melhores Operadoras do Rio de Janeiro</h2>
+        <p class="text-slate-600 font-medium">Amil, SulAmérica, Bradesco Saúde, Assim Saúde, Leve Saúde, Medsenior, Klini Saúde, Cemeru e outras operadoras de referência, tudo comparado de forma independente para você decidir com segurança.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <!-- Op 1 -->
+        <div class="border border-slate-200 rounded-2xl p-5 flex items-center gap-4 bg-white hover:border-blue-400 hover:shadow-lg transition">
+          <div class="w-16 h-12 bg-slate-50 rounded flex items-center justify-center shrink-0 border border-slate-100 overflow-hidden">
+            <img src="img/plano-amil.png" alt="Amil" class="w-full h-full object-contain p-1" />
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm">Amil Saúde</h4>
+            <p class="text-[11px] text-slate-500 font-medium mb-1">Rede Nacional & Resgate</p>
+            <a href="#" class="text-xs font-bold text-blue-600 hover:underline">Cotar Amil &rarr;</a>
+          </div>
+        </div>
+        <!-- Op 2 -->
+        <div class="border border-slate-200 rounded-2xl p-5 flex items-center gap-4 bg-white hover:border-blue-400 hover:shadow-lg transition">
+          <div class="w-16 h-12 bg-slate-50 rounded flex items-center justify-center shrink-0 border border-slate-100 overflow-hidden">
+            <img src="img/plano-sulamerica-saude.png" alt="SulAmérica" class="w-full h-full object-contain p-1" />
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm">SulAmérica Saúde</h4>
+            <p class="text-[11px] text-slate-500 font-medium mb-1">Reembolso Ágil em 24h</p>
+            <a href="#" class="text-xs font-bold text-blue-600 hover:underline">Cotar SulAmérica &rarr;</a>
+          </div>
+        </div>
+        <!-- Op 3 -->
+        <div class="border border-slate-200 rounded-2xl p-5 flex items-center gap-4 bg-white hover:border-blue-400 hover:shadow-lg transition">
+          <div class="w-16 h-12 bg-slate-50 rounded flex items-center justify-center shrink-0 border border-slate-100 overflow-hidden">
+            <img src="img/plano-bradesco.png" alt="Bradesco" class="w-full h-full object-contain p-1" />
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm">Bradesco Saúde</h4>
+            <p class="text-[11px] text-slate-500 font-medium mb-1">Empresarial & Alto Padrão</p>
+            <a href="#" class="text-xs font-bold text-red-600 hover:underline">Cotar Bradesco &rarr;</a>
+          </div>
+        </div>
+        <!-- Op 4 -->
+        <div class="border border-slate-200 rounded-2xl p-5 flex items-center gap-4 bg-white hover:border-blue-400 hover:shadow-lg transition">
+          <div class="w-16 h-12 bg-slate-50 rounded flex items-center justify-center shrink-0 border border-slate-100 overflow-hidden">
+            <img src="img/plano-assim-saude.png" alt="Assim" class="w-full h-full object-contain p-1" />
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm">Assim Saúde</h4>
+            <p class="text-[11px] text-slate-500 font-medium mb-1">Maior Rede Própria no RJ</p>
+            <a href="#" class="text-xs font-bold text-emerald-600 hover:underline">Cotar Assim &rarr;</a>
+          </div>
+        </div>
+        <!-- Op 5 -->
+        <div class="border border-slate-200 rounded-2xl p-5 flex items-center gap-4 bg-white hover:border-blue-400 hover:shadow-lg transition">
+          <div class="w-16 h-12 bg-slate-50 rounded flex items-center justify-center shrink-0 border border-slate-100 overflow-hidden">
+            <img src="img/plano-leve-saude.png" alt="Leve Saúde" class="w-full h-full object-contain p-1" />
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm">Leve Saúde</h4>
+            <p class="text-[11px] text-slate-500 font-medium mb-1">Foco em Longevidade</p>
+            <a href="#" class="text-xs font-bold text-purple-600 hover:underline">Cotar Leve &rarr;</a>
+          </div>
+        </div>
+        <!-- Op 6 -->
+        <div class="border border-slate-200 rounded-2xl p-5 flex items-center gap-4 bg-white hover:border-blue-400 hover:shadow-lg transition">
+          <div class="w-16 h-12 bg-slate-50 rounded flex items-center justify-center shrink-0 border border-slate-100 overflow-hidden">
+            <img src="img/plano-medisenior.jpg" alt="MedSênior" class="w-full h-full object-contain p-1" />
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm">MediSenior</h4>
+            <p class="text-[11px] text-slate-500 font-medium mb-1">Especialista 49+ Sem Copart.</p>
+            <a href="#" class="text-xs font-bold text-orange-500 hover:underline">Cotar Medsenior &rarr;</a>
+          </div>
+        </div>
+        <!-- Op 7 -->
+        <div class="border border-slate-200 rounded-2xl p-5 flex items-center gap-4 bg-white hover:border-blue-400 hover:shadow-lg transition">
+          <div class="w-16 h-12 bg-slate-50 rounded flex items-center justify-center shrink-0 border border-slate-100 overflow-hidden">
+            <img src="img/plano-klini-saude.webp" alt="Klini" class="w-full h-full object-contain p-1" />
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm">Klini Saúde</h4>
+            <p class="text-[11px] text-slate-500 font-medium mb-1">Rede Integrada & Ágil</p>
+            <a href="#" class="text-xs font-bold text-teal-600 hover:underline">Cotar Klini &rarr;</a>
+          </div>
+        </div>
+        <!-- Op 8 -->
+        <div class="border border-slate-200 rounded-2xl p-5 flex items-center gap-4 bg-white hover:border-blue-400 hover:shadow-lg transition">
+          <div class="w-16 h-12 bg-slate-50 rounded flex items-center justify-center shrink-0 border border-slate-100 overflow-hidden">
+            <img src="img/plano-cemeru.png" alt="Cemeru" class="w-full h-full object-contain p-1" />
+          </div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-sm">Cemeru Saúde</h4>
+            <p class="text-[11px] text-slate-500 font-medium mb-1">Líder Zona Oeste & Baixada</p>
+            <a href="#" class="text-xs font-bold text-emerald-600 hover:underline">Cotar Cemeru &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-8 flex flex-col lg:flex-row items-center justify-between gap-6">
+        <div>
+          <div class="flex items-center gap-2 text-blue-700 font-bold text-xs mb-2 uppercase tracking-wide">
+            <i data-lucide="check-circle-2" class="h-4 w-4"></i> OUTRAS OPÇÕES DISPONÍVEIS NO NOSSO COMPARADOR
+          </div>
+          <h3 class="text-xl font-black text-slate-900 mb-4">Mais Operadoras Recomendadas no Rio de Janeiro</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-bold text-slate-600">Porto Saúde</span>
+            <span class="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-bold text-slate-600">Unimed Rio</span>
+            <span class="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-bold text-slate-600">NotreDame Intermédica</span>
+            <span class="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-bold text-slate-600">Samoc Saúde</span>
+            <span class="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-bold text-slate-600">Select Saúde</span>
+            <span class="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-bold text-slate-600">Nova Saúde</span>
+            <span class="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-bold text-slate-600">Allcare Gestora</span>
+          </div>
+        </div>
+        <div class="shrink-0 w-full lg:w-auto">
+          <a href="#" class="w-full lg:w-auto flex items-center justify-center gap-2 bg-blue-700 hover:bg-blue-800 text-white px-8 py-4 rounded-xl font-bold transition shadow-lg shadow-blue-700/25">
+            <i data-lucide="message-square" class="h-5 w-5"></i> Solicitar Comparativo Completo
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compare os Melhores Planos Section -->
+  <section class="py-16 bg-white">
+    <div class="mx-auto max-w-[1400px] px-5 sm:px-8">
+      <div class="bg-[#0c1838] bg-gradient-to-br from-[#0c1838] to-[#1e3a8a] rounded-[2.5rem] p-8 sm:p-12 lg:p-16 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center shadow-2xl relative overflow-hidden">
+        
+        <!-- Left Side -->
+        <div class="relative z-10 text-white space-y-6">
+          <div class="inline-flex items-center gap-2 rounded-full border border-blue-400/30 bg-blue-900/40 px-3 py-1.5 text-xs font-bold text-blue-200 backdrop-blur-sm">
+            <i data-lucide="zap" class="h-4 w-4"></i> COTAÇÃO RÁPIDA & TRANSPARENTE
+          </div>
+          
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight text-white">
+            Compare os Melhores Planos de Saúde RJ em um Só Lugar
+          </h2>
+          
+          <p class="text-blue-100/80 font-medium text-lg leading-relaxed">
+            Encontrar o plano de saúde certo no Rio de Janeiro não precisa ser complicado. Aqui você faz uma <strong class="text-white">cotação de plano de saúde RJ gratuita</strong> e recebe, em minutos, propostas comparadas das principais operadoras da cidade.
+          </p>
+
+          <div class="grid sm:grid-cols-3 gap-4 pt-4">
+            <div class="bg-white/5 border border-white/10 rounded-2xl p-4 hover:bg-white/10 transition">
+              <div class="h-8 w-8 rounded-lg bg-blue-500/20 text-blue-400 flex items-center justify-center mb-3">
+                <i data-lucide="zap" class="h-4 w-4"></i>
+              </div>
+              <h4 class="font-bold text-sm text-white mb-1">Sem Enrolação</h4>
+              <p class="text-[11px] text-blue-100/70 font-medium">Tabelas comparativas atualizadas no seu WhatsApp.</p>
+            </div>
+            <div class="bg-white/5 border border-white/10 rounded-2xl p-4 hover:bg-white/10 transition">
+              <div class="h-8 w-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center mb-3">
+                <i data-lucide="shield-check" class="h-4 w-4"></i>
+              </div>
+              <h4 class="font-bold text-sm text-white mb-1">Sem Letra Miúda</h4>
+              <p class="text-[11px] text-blue-100/70 font-medium">Transparência em carências e hospitais.</p>
+            </div>
+            <div class="bg-white/5 border border-white/10 rounded-2xl p-4 hover:bg-white/10 transition">
+              <div class="h-8 w-8 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center mb-3">
+                <i data-lucide="thumbs-up" class="h-4 w-4"></i>
+              </div>
+              <h4 class="font-bold text-sm text-white mb-1">Sem Compromisso</h4>
+              <p class="text-[11px] text-blue-100/70 font-medium">Cotação 100% grátis sem obrigação.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side Form -->
+        <div class="relative z-10 bg-[#0f172a] rounded-3xl p-5 sm:p-8 border border-white/10 shadow-2xl">
+          <div class="inline-flex items-center gap-2 rounded-full border border-blue-400/20 bg-blue-900/30 px-3 py-1 text-[10px] font-bold text-blue-300 mb-4">
+            <i data-lucide="clock" class="h-3 w-3"></i> Simulação Rápida em 1 Minuto
+          </div>
+          
+          <h3 class="text-xl sm:text-2xl font-black text-white mb-1">Receber Tabela de Preços</h3>
+          <p class="text-xs text-blue-100/60 font-medium mb-6">Preencha para receber o comparativo no seu WhatsApp</p>
+          
+          <form class="space-y-4">
+            <div>
+              <label class="block text-xs font-bold text-white mb-1.5">Nome Completo</label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <i data-lucide="user" class="h-4 w-4"></i>
+                </div>
+                <input type="text" placeholder="Seu nome completo" class="w-full bg-[#1e293b] border border-slate-600 text-white rounded-xl py-3 pl-10 pr-4 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition" />
+              </div>
+            </div>
+            
+            <div>
+              <label class="block text-xs font-bold text-white mb-1.5">WhatsApp / Telefone</label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <i data-lucide="phone" class="h-4 w-4"></i>
+                </div>
+                <input type="tel" placeholder="(21) 99999-9999" class="w-full bg-[#1e293b] border border-slate-600 text-white rounded-xl py-3 pl-10 pr-4 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition" />
+              </div>
+            </div>
+            
+            <div>
+              <label class="block text-xs font-bold text-white mb-1.5">E-mail</label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <i data-lucide="mail" class="h-4 w-4"></i>
+                </div>
+                <input type="email" placeholder="seuemail@exemplo.com" class="w-full bg-[#1e293b] border border-slate-600 text-white rounded-xl py-3 pl-10 pr-4 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition" />
+              </div>
+            </div>
+            
+            <div>
+              <label class="block text-xs font-bold text-white mb-1.5">Tipo de Plano</label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                  <i data-lucide="layers" class="h-4 w-4"></i>
+                </div>
+                <select class="w-full bg-[#1e293b] border border-slate-600 text-white rounded-xl py-3 pl-10 pr-10 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition appearance-none">
+                  <option>Plano Individual / Familiar</option>
+                  <option>Plano Empresarial / MEI</option>
+                  <option>Plano por Adesão</option>
+                </select>
+                <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-slate-400">
+                  <i data-lucide="chevron-down" class="h-4 w-4"></i>
+                </div>
+              </div>
+            </div>
+            
+            <button type="submit" class="w-full bg-emerald-500 hover:bg-emerald-400 text-white text-[13px] sm:text-base font-bold rounded-xl py-3.5 sm:py-4 mt-2 flex items-center justify-center gap-3 transition shadow-lg shadow-emerald-500/25 px-4">
+              <i data-lucide="send" class="h-4 w-4 shrink-0"></i> 
+              <span>Simular Agora sem Compromisso</span>
+            </button>
+            
+            <p class="text-center text-[9px] sm:text-[10px] text-blue-100/50 mt-4 flex items-center justify-center gap-1 font-medium">
+              <i data-lucide="lock" class="h-2.5 w-2.5 sm:h-3 sm:w-3 shrink-0"></i> <span>Seus dados estão 100% seguros & protegidos.</span>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Por Que Comparar Seu Plano Aqui -->
+  <section class="py-20 bg-slate-50 border-t border-slate-200">
+    <div class="mx-auto max-w-[1400px] px-5 sm:px-8">
+      
+      <!-- Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <div class="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-xs font-bold text-blue-700">
+          <i data-lucide="check" class="h-4 w-4"></i> DIFERENCIAIS EXCLUSIVOS NO RJ
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 leading-tight">
+          Por Que Comparar Seu Plano de Saúde Aqui
+        </h2>
+        <p class="text-slate-600 font-medium text-lg leading-relaxed">
+          Oferecemos uma experiência transparente, humana e ágil para você escolher o plano ideal sem surpresas nem dor de cabeça.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <!-- Left Image -->
+        <div class="relative z-10 w-full max-w-lg mx-auto lg:max-w-none">
+          <div class="relative rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white bg-white">
+            <img src="img/compare-planos-de-saude-rj.png" alt="Casal comparando planos" class="w-full h-auto object-cover aspect-[4/5] lg:aspect-auto" />
+          </div>
+          <!-- Floating Badge -->
+          <div class="absolute -bottom-6 right-4 sm:-bottom-8 sm:-right-8 bg-white rounded-2xl shadow-xl border border-slate-100 p-4 flex items-center gap-4 z-20">
+            <div class="h-12 w-12 rounded-xl bg-emerald-50 text-emerald-500 flex items-center justify-center shrink-0">
+              <i data-lucide="shield-check" class="h-6 w-6"></i>
+            </div>
+            <div>
+              <p class="text-sm font-black text-slate-900">Consultoria 100% Isenta</p>
+              <p class="text-[11px] font-bold text-emerald-600">Garantia SUSEP & Sem Robôs</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Grid -->
+        <div class="grid sm:grid-cols-2 gap-5 mt-8 lg:mt-0">
+          <!-- Card 1 -->
+          <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm hover:shadow-lg transition flex flex-col h-full relative overflow-hidden">
+            <div class="flex items-center justify-between mb-4">
+              <div class="h-12 w-12 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center">
+                <i data-lucide="scale" class="h-6 w-6"></i>
+              </div>
+              <span class="text-[10px] font-bold bg-blue-50 text-blue-600 px-2.5 py-1 rounded-md">Transparência Total</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Comparação Imparcial</h3>
+            <p class="text-sm text-slate-600 font-medium mb-6 flex-grow">Comparação imparcial entre dezenas de tabelas e coberturas do mercado carioca.</p>
+            <div class="flex items-center gap-1.5 text-xs font-bold text-blue-600 mt-auto pt-4 border-t border-slate-100">
+              <i data-lucide="check-circle-2" class="h-3.5 w-3.5"></i> Análise isenta no seu perfil
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm hover:shadow-lg transition flex flex-col h-full relative overflow-hidden">
+            <div class="flex items-center justify-between mb-4">
+              <div class="h-12 w-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center">
+                <i data-lucide="user" class="h-6 w-6"></i>
+              </div>
+              <span class="text-[10px] font-bold bg-emerald-50 text-emerald-600 px-2.5 py-1 rounded-md">100% Pessoal</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Atendimento Humanizado</h3>
+            <p class="text-sm text-slate-600 font-medium mb-6 flex-grow">Atendimento humanizado do início ao fim — sem robôs, sem respostas automáticas.</p>
+            <div class="flex items-center gap-1.5 text-xs font-bold text-emerald-600 mt-auto pt-4 border-t border-slate-100">
+              <i data-lucide="message-square" class="h-3.5 w-3.5"></i> Fale direto com a Corretora
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm hover:shadow-lg transition flex flex-col h-full relative overflow-hidden">
+            <div class="flex items-center justify-between mb-4">
+              <div class="h-12 w-12 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center">
+                <i data-lucide="zap" class="h-6 w-6"></i>
+              </div>
+              <span class="text-[10px] font-bold bg-amber-50 text-amber-600 px-2.5 py-1 rounded-md">Sem Burocracia</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Cotação Ágil</h3>
+            <p class="text-sm text-slate-600 font-medium mb-6 flex-grow">Cotação ágil: resposta em poucas horas, sem burocracia.</p>
+            <div class="flex items-center gap-1.5 text-xs font-bold text-amber-600 mt-auto pt-4 border-t border-slate-100">
+              <i data-lucide="clock" class="h-3.5 w-3.5"></i> Propostas em minutos
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm hover:shadow-lg transition flex flex-col h-full relative overflow-hidden">
+            <div class="flex items-center justify-between mb-4">
+              <div class="h-12 w-12 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center">
+                <i data-lucide="heart" class="h-6 w-6"></i>
+              </div>
+              <span class="text-[10px] font-bold bg-purple-50 text-purple-600 px-2.5 py-1 rounded-md">Pós-Venda Ativo</span>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">Suporte Contínuo</h3>
+            <p class="text-sm text-slate-600 font-medium mb-6 flex-grow">Suporte contínuo mesmo depois de o plano estar assinado.</p>
+            <div class="flex items-center gap-1.5 text-xs font-bold text-purple-600 mt-auto pt-4 border-t border-slate-100">
+              <i data-lucide="headphones" class="h-3.5 w-3.5"></i> Acompanhamento vitalício
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Banner CTA -->
+      <div class="mt-16 bg-blue-50/50 border border-blue-100 rounded-3xl p-6 sm:p-8 flex flex-col lg:flex-row items-center justify-between gap-6">
+        <div>
+          <h3 class="text-xl font-black text-slate-900 mb-1">Pronto para encontrar o melhor plano de saúde no RJ?</h3>
+          <p class="text-sm font-medium text-slate-600">Faça sua simulação gratuita agora e receba o comparativo completo em minutos.</p>
+        </div>
+        <div class="shrink-0 w-full lg:w-auto">
+          <a href="#" class="w-full lg:w-auto flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-xl font-bold transition shadow-lg shadow-emerald-500/25">
+            <i data-lucide="message-circle" class="h-5 w-5"></i> Solicitar Cotação no WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-20 bg-slate-50 border-t border-slate-200">
+    <div class="mx-auto max-w-[1400px] px-5 sm:px-8">
+      
+      <!-- Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <div class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-700 shadow-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="h-4 w-4 shrink-0">
+            <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+            <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+            <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+            <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+          </svg> Google Meu Negócio <span class="text-amber-500">5.0 <i data-lucide="star" class="inline h-3 w-3 fill-current"></i></span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 leading-tight">
+          O Que Nossos Clientes Dizem no Google
+        </h2>
+        <p class="text-slate-600 font-medium text-lg leading-relaxed">
+          Confira as avaliações reais de quem já fez a cotação e contratou o plano de saúde no RJ com a nossa consultoria.
+        </p>
+      </div>
+
+      <!-- Grid -->
+      <div class="grid md:grid-cols-3 gap-6 mb-10">
+        <!-- Review 1 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-lg transition">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="h-12 w-12 rounded-full bg-blue-600 text-white flex items-center justify-center font-black text-lg">M</div>
+            <div>
+              <h4 class="font-bold text-slate-900">Marília Santos</h4>
+              <p class="text-[10px] text-slate-500 flex items-center gap-1"><i data-lucide="check-circle-2" class="h-3 w-3"></i> Avaliação no Google</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-1 text-amber-400 mb-4">
+            <i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i>
+          </div>
+          <p class="text-slate-600 text-sm font-medium italic mb-6 leading-relaxed">
+            "Fui muito bem atendida pela Mayara, podem confiar!!! Ótimo atendimento!!"
+          </p>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="text-[10px] font-bold text-slate-500 flex items-center gap-1">Nota 5.0 <div class="flex text-slate-300"><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i></div></div>
+            <div class="text-[10px] font-bold text-emerald-600 flex items-center gap-1"><i data-lucide="shield-check" class="h-3 w-3"></i> Recomendada</div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-lg transition">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="h-12 w-12 rounded-full bg-emerald-600 text-white flex items-center justify-center font-black text-lg">A</div>
+            <div>
+              <h4 class="font-bold text-slate-900">Adriana Monique</h4>
+              <p class="text-[10px] text-slate-500 flex items-center gap-1"><i data-lucide="check-circle-2" class="h-3 w-3"></i> Avaliação no Google</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-1 text-amber-400 mb-4">
+            <i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i>
+          </div>
+          <p class="text-slate-600 text-sm font-medium italic mb-6 leading-relaxed">
+            "Gostei do planos, atendi aquilo que eu precisava, São atencioso amei"
+          </p>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="text-[10px] font-bold text-slate-500 flex items-center gap-1">Nota 5.0 <div class="flex text-slate-300"><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i></div></div>
+            <div class="text-[10px] font-bold text-emerald-600 flex items-center gap-1"><i data-lucide="shield-check" class="h-3 w-3"></i> Recomendada</div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-lg transition">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="h-12 w-12 rounded-full bg-amber-500 text-white flex items-center justify-center font-black text-lg">L</div>
+            <div>
+              <h4 class="font-bold text-slate-900">layane silva</h4>
+              <p class="text-[10px] text-slate-500 flex items-center gap-1"><i data-lucide="check-circle-2" class="h-3 w-3"></i> Avaliação no Google</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-1 text-amber-400 mb-4">
+            <i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i>
+          </div>
+          <p class="text-slate-600 text-sm font-medium italic mb-6 leading-relaxed">
+            "Fui bem atendida. Pode confiar!"
+          </p>
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <div class="text-[10px] font-bold text-slate-500 flex items-center gap-1">Nota 5.0 <div class="flex text-slate-300"><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i><i data-lucide="star" class="h-2.5 w-2.5 fill-current text-slate-400"></i></div></div>
+            <div class="text-[10px] font-bold text-emerald-600 flex items-center gap-1"><i data-lucide="shield-check" class="h-3 w-3"></i> Recomendada</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-center">
+        <a href="#" class="inline-flex items-center gap-3 bg-white border border-slate-200 px-6 py-3 rounded-full text-sm font-bold text-slate-800 shadow-sm hover:bg-slate-50 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="h-5 w-5 shrink-0">
+            <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+            <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+            <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+            <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+          </svg> Ver Todas as Avaliações no Google Meu Negócio <i data-lucide="external-link" class="h-4 w-4 text-slate-400"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="py-20 bg-white border-t border-slate-200">
+    <div class="mx-auto max-w-4xl px-5 sm:px-8">
+      
+      <!-- Header -->
+      <div class="text-center mb-16 space-y-4">
+        <div class="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-xs font-bold text-blue-700">
+          <i data-lucide="help-circle" class="h-4 w-4"></i> TIRE SUAS DÚVIDAS
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 leading-tight">
+          Perguntas Frequentes
+        </h2>
+        <p class="text-slate-600 font-medium text-lg">
+          Esclareça as principais questões antes de realizar sua cotação gratuita no Rio de Janeiro.
+        </p>
+      </div>
+
+      <!-- Accordions -->
+      <div class="space-y-4 mb-12">
+        <div class="border border-slate-200 rounded-2xl p-6 hover:border-slate-300 transition cursor-pointer group" onclick="toggleFAQ(this)">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-4">
+              <div class="h-10 w-10 rounded-xl bg-blue-50 text-blue-600 font-black text-sm flex items-center justify-center shrink-0">01</div>
+              <h4 class="font-bold text-slate-900 text-lg">Qual o melhor plano de saúde no Rio de Janeiro?</h4>
+            </div>
+            <div class="h-8 w-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 group-hover:bg-slate-100">
+              <i data-lucide="chevron-down" class="h-5 w-5 transition-transform duration-200 faq-icon"></i>
+            </div>
+          </div>
+          <div class="mt-4 pl-14 pr-8 text-slate-600 font-medium text-sm leading-relaxed hidden faq-answer">
+            Não existe um único "melhor" plano — a escolha ideal depende da sua idade, do orçamento e da região onde você mais utiliza a rede credenciada. Por isso comparamos várias operadoras antes de recomendar uma opção.
+          </div>
+        </div>
+        <div class="border border-slate-200 rounded-2xl p-6 hover:border-slate-300 transition cursor-pointer group" onclick="toggleFAQ(this)">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-4">
+              <div class="h-10 w-10 rounded-xl bg-emerald-50 text-emerald-600 font-black text-sm flex items-center justify-center shrink-0">02</div>
+              <h4 class="font-bold text-slate-900 text-lg">Quanto custa um plano de saúde no RJ?</h4>
+            </div>
+            <div class="h-8 w-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 group-hover:bg-slate-100">
+              <i data-lucide="chevron-down" class="h-5 w-5 transition-transform duration-200 faq-icon"></i>
+            </div>
+          </div>
+          <div class="mt-4 pl-14 pr-8 text-slate-600 font-medium text-sm leading-relaxed hidden faq-answer">
+            O valor de um plano de saúde no Rio de Janeiro varia conforme idade, tipo de plano (individual, familiar ou empresarial) e rede de atendimento escolhida. Fazemos uma simulação personalizada e sem custo para mostrar o valor exato para o seu caso.
+          </div>
+        </div>
+        <div class="border border-slate-200 rounded-2xl p-6 hover:border-slate-300 transition cursor-pointer group" onclick="toggleFAQ(this)">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-4">
+              <div class="h-10 w-10 rounded-xl bg-amber-50 text-amber-600 font-black text-sm flex items-center justify-center shrink-0">03</div>
+              <h4 class="font-bold text-slate-900 text-lg">A cotação tem algum custo ou compromisso?</h4>
+            </div>
+            <div class="h-8 w-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 group-hover:bg-slate-100">
+              <i data-lucide="chevron-down" class="h-5 w-5 transition-transform duration-200 faq-icon"></i>
+            </div>
+          </div>
+          <div class="mt-4 pl-14 pr-8 text-slate-600 font-medium text-sm leading-relaxed hidden faq-answer">
+            Não. A cotação é 100% gratuita e você não tem nenhuma obrigação de contratar.
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Banner -->
+      <div class="bg-slate-50 border border-slate-200 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-4">
+          <div class="h-14 w-14 rounded-2xl bg-blue-600 text-white flex items-center justify-center shrink-0 shadow-lg">
+            <i data-lucide="message-circle" class="h-7 w-7"></i>
+          </div>
+          <div>
+            <h3 class="font-black text-slate-900 text-lg mb-1">Ainda tem alguma dúvida específica?</h3>
+            <p class="text-sm font-medium text-slate-500">Fale diretamente com a Corretora Mayara Cristina no WhatsApp e tire todas as suas dúvidas.</p>
+          </div>
+        </div>
+        <div class="shrink-0 w-full md:w-auto">
+          <a href="#" class="w-full flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3.5 rounded-xl font-bold transition shadow-md">
+            <i data-lucide="message-circle" class="h-5 w-5"></i> Tirar Dúvida no WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Final CTA / Footer Section -->
+  <section class="relative py-20 lg:py-24 bg-slate-900 overflow-hidden">
+    <!-- Background Image & Overlay -->
+    <div class="absolute inset-0 z-0">
+      <img src="img/fundo-footer.png" alt="Família feliz" class="w-full h-full object-cover object-right md:object-center" />
+      <div class="absolute inset-0 bg-gradient-to-r from-[#0B1536] via-[#0B1536]/90 to-transparent"></div>
+    </div>
+    
+    <div class="relative z-10 mx-auto max-w-[1400px] px-5 sm:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <!-- Left Column -->
+        <div class="text-white space-y-6 max-w-2xl">
+          <div class="inline-flex items-center gap-2 rounded-full border border-blue-400/30 bg-blue-900/40 px-3 py-1.5 text-[10px] sm:text-xs font-bold text-blue-200 backdrop-blur-sm">
+            <i data-lucide="zap" class="h-4 w-4"></i> COTAÇÃO ONLINE GRATUITA
+          </div>
+          
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight text-white">
+            Receba os Melhores Preços do RJ no Seu WhatsApp
+          </h2>
+          
+          <p class="text-blue-100/80 font-medium text-lg leading-relaxed">
+            Preencha o formulário e receba em instantes o comparativo completo de valores, carências e hospitais.
+          </p>
+
+          <!-- Form Block -->
+          <div class="bg-[#0f172a]/95 backdrop-blur-md rounded-3xl p-6 sm:p-8 border border-white/10 shadow-2xl mt-8">
+            <h3 class="text-xl sm:text-2xl font-black text-white mb-1">Simular Plano de Saúde</h3>
+            <p class="text-xs text-blue-100/60 font-medium mb-6">Preencha seus dados para receber o comparativo no WhatsApp</p>
+            
+            <form class="space-y-4">
+              <div class="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-bold text-white mb-1.5">Nome Completo</label>
+                  <div class="relative">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                      <i data-lucide="user" class="h-4 w-4"></i>
+                    </div>
+                    <input type="text" placeholder="Seu nome" class="w-full bg-[#1e293b] border border-slate-600 text-white rounded-xl py-2.5 pl-10 pr-4 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition" />
+                  </div>
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-white mb-1.5">WhatsApp / Telefone</label>
+                  <div class="relative">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                      <i data-lucide="phone" class="h-4 w-4"></i>
+                    </div>
+                    <input type="tel" placeholder="(21) 99999-9999" class="w-full bg-[#1e293b] border border-slate-600 text-white rounded-xl py-2.5 pl-10 pr-4 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition" />
+                  </div>
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-white mb-1.5">E-mail</label>
+                  <div class="relative">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                      <i data-lucide="mail" class="h-4 w-4"></i>
+                    </div>
+                    <input type="email" placeholder="seuemail@exemplo.com" class="w-full bg-[#1e293b] border border-slate-600 text-white rounded-xl py-2.5 pl-10 pr-4 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition" />
+                  </div>
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-white mb-1.5">Tipo de Plano</label>
+                  <div class="relative">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                      <i data-lucide="layers" class="h-4 w-4"></i>
+                    </div>
+                    <select class="w-full bg-[#1e293b] border border-slate-600 text-white rounded-xl py-2.5 pl-10 pr-10 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition appearance-none">
+                      <option>Plano Individual / Familiar</option>
+                      <option>Plano Empresarial / MEI</option>
+                      <option>Plano por Adesão</option>
+                    </select>
+                    <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-slate-400">
+                      <i data-lucide="chevron-down" class="h-4 w-4"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <button type="submit" class="w-full bg-emerald-500 hover:bg-emerald-400 text-white text-[13px] sm:text-base font-bold rounded-xl py-3.5 mt-4 flex items-center justify-center gap-2 transition shadow-lg shadow-emerald-500/25 px-2">
+                <i data-lucide="send" class="h-4 w-4 shrink-0"></i> <span>Receber Cotação Gratuita Agora</span>
+              </button>
+              
+              <p class="text-center text-[9px] sm:text-[10px] text-blue-100/50 mt-4 flex items-center justify-center gap-1 font-medium">
+                <i data-lucide="lock" class="h-2.5 w-2.5 sm:h-3 sm:w-3 shrink-0"></i> <span>Seus dados estão 100% protegidos. Não enviamos spam.</span>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Full Footer -->
+  <footer class="bg-[#050A18] pt-16 pb-8 border-t border-slate-800">
+    <div class="mx-auto max-w-[1400px] px-5 sm:px-8">
+      
+      <!-- Top Section -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <!-- Col 1: About -->
+        <div class="space-y-6">
+          <div class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-blue-600 text-white shadow-md">
+              <i data-lucide="shield-check" class="h-5 w-5"></i>
+            </span>
+            <div class="flex flex-col">
+              <span class="text-lg font-extrabold tracking-tight text-white">
+                Corretora <span class="text-blue-500">Mayara Cristina</span>
+              </span>
+              <span class="text-[10px] font-semibold uppercase tracking-wider text-slate-400">Planos de Saúde no RJ</span>
+            </div>
+          </div>
+          <p class="text-sm text-slate-400 font-medium leading-relaxed pr-4">
+            Consultoria independente especializada em cotação de planos de saúde no Rio de Janeiro. Encontramos a melhor opção para você, sua família ou empresa com economia e transparência.
+          </p>
+          <div class="inline-flex items-center gap-2 rounded-lg border border-emerald-500/30 bg-emerald-500/10 px-3 py-2 text-xs font-bold text-emerald-400">
+            <i data-lucide="check-circle-2" class="h-4 w-4"></i> Corretora Cadastrada & Autorizada
+          </div>
+        </div>
+
+        <!-- Col 2: Menu Principal -->
+        <div>
+          <h4 class="text-white font-bold mb-6 tracking-wide text-sm">MENU PRINCIPAL</h4>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-slate-400 hover:text-blue-400 transition text-sm flex items-center gap-2 font-medium"><i data-lucide="chevron-right" class="h-3 w-3"></i> Home</a></li>
+            <li><a href="#" class="text-slate-400 hover:text-blue-400 transition text-sm flex items-center gap-2 font-medium"><i data-lucide="chevron-right" class="h-3 w-3"></i> Sobre nós</a></li>
+            <li><a href="#" class="text-slate-400 hover:text-blue-400 transition text-sm flex items-center gap-2 font-medium"><i data-lucide="chevron-right" class="h-3 w-3"></i> Operadoras Parceiras</a></li>
+            <li><a href="#" class="text-slate-400 hover:text-blue-400 transition text-sm flex items-center gap-2 font-medium"><i data-lucide="chevron-right" class="h-3 w-3"></i> blog</a></li>
+            <li><a href="#" class="text-slate-400 hover:text-blue-400 transition text-sm flex items-center gap-2 font-medium"><i data-lucide="chevron-right" class="h-3 w-3"></i> contato</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Planos -->
+        <div>
+          <h4 class="text-white font-bold mb-6 tracking-wide text-sm">PLANOS</h4>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-slate-400 hover:text-blue-400 transition text-sm font-medium">Individuais e Familiares</a></li>
+            <li><a href="#" class="text-slate-400 hover:text-blue-400 transition text-sm font-medium">Empresariais</a></li>
+            <li><a href="#" class="text-slate-400 hover:text-blue-400 transition text-sm font-medium">Coletivos por adesão</a></li>
+            <li><a href="#" class="text-slate-400 hover:text-blue-400 transition text-sm font-medium">Odontológico</a></li>
+            <li><a href="#" class="text-slate-400 hover:text-blue-400 transition text-sm font-medium">Petlove</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Atendimento -->
+        <div>
+          <h4 class="text-white font-bold mb-6 tracking-wide text-sm">ATENDIMENTO</h4>
+          <div class="bg-slate-800/50 border border-slate-700/50 rounded-xl p-4 flex items-center gap-4 mb-6">
+            <i data-lucide="phone" class="h-6 w-6 text-emerald-400 shrink-0"></i>
+            <div>
+              <p class="text-white font-black text-lg">(21) 97994-6827</p>
+              <p class="text-[10px] font-medium text-slate-400">WhatsApp & Ligação Direta</p>
+            </div>
+          </div>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3 text-slate-400 text-sm font-medium">
+              <i data-lucide="clock" class="h-4 w-4 shrink-0 mt-0.5 text-slate-500"></i> Segunda a Sábado: 08:00h às 19:00h
+            </li>
+            <li class="flex items-start gap-3 text-slate-400 text-sm font-medium">
+              <i data-lucide="map-pin" class="h-4 w-4 shrink-0 mt-0.5 text-slate-500"></i> Atendimento em todo o Rio de Janeiro - RJ
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div class="pt-8 border-t border-slate-800/80 flex flex-col lg:flex-row items-center lg:items-start justify-between gap-6">
+        <div class="text-center lg:text-left">
+          <p class="text-xs font-bold text-slate-300 mb-2">&copy; 2026 Corretora Mayara Cristina - Todos os direitos reservados.</p>
+          <p class="text-[10px] font-medium text-slate-500 max-w-3xl">As informações e valores referentes aos planos de saúde são sujeitos a alterações pelas respectivas operadoras sem prévio aviso. A simulação e cotação são gratuitas e sem compromisso.</p>
+        </div>
+        <div class="flex items-center gap-4 text-xs font-medium text-slate-400 shrink-0">
+          <a href="#" class="hover:text-blue-400 transition">Privacidade</a>
+          <span class="text-slate-600">&bull;</span>
+          <a href="#" class="hover:text-blue-400 transition">Termos de Uso</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+    function toggleFAQ(element) {
+      const answer = element.querySelector('.faq-answer');
+      const icon = element.querySelector('.faq-icon');
+      answer.classList.toggle('hidden');
+      icon.classList.toggle('rotate-180');
+    }
+  </script>
+</body>
+</html>

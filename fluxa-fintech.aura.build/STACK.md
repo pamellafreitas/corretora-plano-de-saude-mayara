@@ -1,0 +1,6 @@
+- **Tailwind CSS** — utility-first CSS framework used for layout and styling
+- **Lucide** — icon library used throughout the interface
+- **GSAP** — animation library used for smooth reveal and scroll-driven effects
+- **ScrollTrigger** — GSAP plugin for triggering scroll animations
+- **Iconify** — icon CDN service used for brand logo SVGs
+- **Google Fonts** — Inter font family for typography
