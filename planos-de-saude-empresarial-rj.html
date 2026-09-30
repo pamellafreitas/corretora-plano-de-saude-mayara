@@ -49,14 +49,8 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
 
-  <!-- Design System CSS Integration -->
-  <link rel="stylesheet" href="fluxa-fintech.aura.build/assets/css/tailwind-base.css" />
-  <link rel="stylesheet" href="fluxa-fintech.aura.build/assets/css/components.css" />
-  <link rel="stylesheet" href="fluxa-fintech.aura.build/assets/css/animations.css" />
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="css/style.css" />
-
-  <!-- Head Scripts: Tailwind Compiler Engine -->
-  <script src="fluxa-fintech.aura.build/assets/176e894661aa9cdc_3.4.17"></script>
 
   <!-- Structured Data / JSON-LD SEO -->
   <script type="application/ld+json">
@@ -305,7 +299,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
 
           <!-- Left Column: SEO Copy & Main Call to Actions (7 cols) -->
-          <div class="lg:col-span-7 xl:col-span-7 max-w-2xl bg-slate-50/95 lg:bg-transparent p-4 sm:p-7 lg:p-0 rounded-3xl lg:rounded-none shadow-sm lg:shadow-none border border-slate-200/60 lg:border-none">
+          <div class="lg:col-span-7 xl:col-span-7 max-w-2xl">
 
             <!-- Top Badge -->
             <div
@@ -1668,8 +1662,14 @@
 
   </footer>
 
-  <script src="fluxa-fintech.aura.build/assets/fc3ec2766fddfbe2_lucide.min.js"></script>
-  <script src="fluxa-fintech.aura.build/assets/js/lucide-init.js"></script>
+  <!-- Lucide Icons Initialization -->
+  <script>
+    lucide.createIcons({
+      attrs: {
+        "stroke-width": 1.5
+      }
+    });
+  </script>
   <script src="js/main.js"></script>
 </body>
 
