@@ -9,13 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Prevent default submit on forms
-  const forms = document.querySelectorAll('form');
-  forms.forEach((form) => {
-    form.addEventListener('submit', (event) => {
-      event.preventDefault();
-    });
-  });
+  // Remove preventDefault that was blocking all forms
+  // Web3Forms will handle submissions natively when you add the keys
+
 
   // Initialize Lucide Icons
   if (window.lucide) {
